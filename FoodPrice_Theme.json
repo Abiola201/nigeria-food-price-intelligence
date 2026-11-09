@@ -1,0 +1,34 @@
+{
+  "name": "Food Price Navy",
+  "dataColors": ["#2BB3A3", "#D4A537", "#5B8DEF", "#E0634E", "#9AA8BD", "#8E6BD8", "#F0C75E", "#3E7C8A"],
+  "background": "#10294A",
+  "foreground": "#E6EDF7",
+  "tableAccent": "#2BB3A3",
+  "good": "#2BB3A3",
+  "neutral": "#D4A537",
+  "bad": "#E0634E",
+  "minimum": "#1F3C66",
+  "center": "#5B8DEF",
+  "maximum": "#2BB3A3",
+  "textClasses": {
+    "callout": { "fontSize": 28, "fontFace": "Segoe UI Semibold", "color": "#D4A537" },
+    "title": { "fontSize": 13, "fontFace": "Segoe UI Semibold", "color": "#E6EDF7" },
+    "header": { "fontSize": 12, "fontFace": "Segoe UI Semibold", "color": "#E6EDF7" },
+    "label": { "fontSize": 10, "fontFace": "Segoe UI", "color": "#B8C4D6" }
+  },
+  "visualStyles": {
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#0B1F3A" } }, "transparency": 0 }],
+        "outspace": [{ "color": { "solid": { "color": "#0B1F3A" } } }]
+      }
+    },
+    "*": {
+      "*": {
+        "title": [{ "fontColor": { "solid": { "color": "#E6EDF7" } } }],
+        "categoryAxis": [{ "labelColor": { "solid": { "color": "#B8C4D6" } } }],
+        "valueAxis": [{ "labelColor": { "solid": { "color": "#B8C4D6" } } }]
+      }
+    }
+  }
+}
